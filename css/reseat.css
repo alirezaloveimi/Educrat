@@ -1,0 +1,119 @@
+/* add Estedad Font */
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: 500;
+  src: url("../fonts/Estedad-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Estedad";
+  font-weight: 600;
+  src: url("../fonts/Estedad-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Estedad";
+  font-weight: 700;
+  src: url("../fonts/Estedad-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Estedad";
+  font-weight: 800;
+  src: url("../fonts/Estedad-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Estedad";
+  font-weight: 900;
+  src: url("../fonts/Estedad-Black.woff2") format("woff2");
+}
+
+/* add colors of the web page */
+
+:root {
+  --color-000: #000;
+  --color-fff: #fff;
+  --color-140342: #140342;
+  --color-00FF84: #00ff84;
+  --color-6440FB: #6440fb;
+  --color-4F547B: #4f547b;
+  --color-EEF2F6: #eef2f6;
+  --color-F4F1FE: #f4f1fe;
+  --color-311F61: #311f61;
+  --color-EDEDED: #ededed;
+  --color-E59819: #e59819;
+}
+
+/* some basic style reaset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  direction: rtl;
+}
+body {
+  font-family: "Estedad", sans-serif;
+  background-color: var(--color-fff);
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-140342);
+  font-weight: 700;
+  line-height: 1.2;
+}
+section,
+footer {
+  padding: 50px 0;
+}
+p {
+  font-size: 15px;
+  line-height: 26px;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button {
+  font-family: "Estedad", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: all 0.3s ease;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* end of some basic style reaset */
+
+/* utility classes */
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-center {
+  display: grid;
+  place-content: center;
+}
+
+/* end of utility classes */

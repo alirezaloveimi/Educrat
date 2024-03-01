@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper css file -->
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- reaset.css -->
+    <link rel="stylesheet" href="./css/reseat.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- responsive.css -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <title>Educrat</title>
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader-overlay grid-center">
+        <div class="loader">
+            <div class="ball ball-1"></div>
+            <div class="ball ball-2"></div>
+            <div class="ball ball-3"></div>
+            <span>صبر کن کوکا...</span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-row flex-center-between">
+                <!-- HEADER-LOGO  -->
+                <div class="header-logo">
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <!-- HEADER-ICONS -->
+                <div class="header-icons flex-align-center">
+
+                    <!-- SEARCH-BOX -->
+                    <div class="search-box">
+
+                        <!-- SEARCH-ICON -->
+                        <i class="ri-search-line header-icon search-icon"></i>
+
+                        <!-- SEARCH -->
+
+                    </div>
+
+                    <!-- BASKET-BOX -->
+                    <div class="basket-box">
+
+                        <!-- BASKET-ICON -->
+                        <i class="ri-shopping-bag-2-line header-icon basket-icon"></i>
+
+                        <!-- BASKET -->
+
+                    </div>
+
+                    <!-- BERGER-BOX -->
+                    <div class="berger-box">
+                        <!-- BERGER-ICON -->
+                        <i class="ri-menu-line header-icon berger-icon"></i>
+                        <!-- HEADER-SIDEBAR -->
+                        <div class="sidebar">
+                            <!-- SIDEBAR-OVERLAY -->
+                            <div class="sidebar-overlay"></div>
+                            <!-- SIDEBAR-BOX -->
+                            <div class="sidebar-box">
+                                <!-- SIDEBAR-HEADER -->
+                                <div class="sidebar-header flex-center-between">
+                                    <i class="ri ri-close-line close-sidebar"></i>
+                                    <h2>Educrat</h2>
+                                </div>
+                                <!-- SIDEBAR-BODY -->
+                                <div class="sidebar-body">
+
+                                    <!-- SIDEBAR-MENU -->
+                                    <ul class="sidebar-menu">
+                                        <!-- SIDEBAR-MENU-ITEM -->
+                                        <li class="slidebar-menu-item">
+                                            <!-- SIDEBAR-MENU-CONTENT -->
+                                            <div class="sidebar-menu-item-content flex-center-between">
+                                                <span class="sidebar-menu-item-text">صفحه اصلی</span>
+                                                <i class="ri-arrow-left-s-line sidebar-menu-item-icon"></i>
+                                            </div>
+
+                                            <!-- SUB-MENU -->
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide flex-align-center active">
+                                                        <i class="ri-arrow-right-s-line"></i>
+                                                        <span>صفحه اصلی</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 1</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 2</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 3</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 4</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 5</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 6</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 7</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+
+                                        </li>
+                                        <!-- SIDEBAR-MENU-ITEM -->
+                                        <li class="slidebar-menu-item">
+                                            <!-- SIDEBAR-MENU-CONTENT -->
+                                            <div class="sidebar-menu-item-content flex-center-between">
+                                                <span class="sidebar-menu-item-text">صفحات</span>
+                                                <i class="ri-arrow-left-s-line sidebar-menu-item-icon"></i>
+                                            </div>
+                                            <!-- SUB-MENU -->
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide flex-align-center active">
+                                                        <i class="ri-arrow-right-s-line"></i>
+                                                        <span>دوره ها</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>طرح بندی لیست دوره ها</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>طرح بندی جزئیات دوره</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>درباره دوره</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحات داشبورد</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>برترین دوره ها</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- SIDEBAR-MENU-ITEM -->
+                                        <li class="slidebar-menu-item">
+                                            <!-- SIDEBAR-MENU-CONTENT -->
+                                            <div class="sidebar-menu-item-content flex-center-between">
+                                                <span class="sidebar-menu-item-text">رویدادها</span>
+                                                <i class="ri-arrow-left-s-line sidebar-menu-item-icon"></i>
+                                            </div>
+                                            <!-- SUB-MENU -->
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide flex-align-center active">
+                                                        <i class="ri-arrow-right-s-line"></i>
+                                                        <span>رویدادها</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>لیست نسخه 1</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>لیست نسخه 2</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>جزئیات رویدادها</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- SIDEBAR-MENU-ITEM -->
+                                        <li class="slidebar-menu-item">
+                                            <!-- SIDEBAR-MENU-CONTENT -->
+                                            <div class="sidebar-menu-item-content flex-center-between">
+                                                <span class="sidebar-menu-item-text">وبلاگ</span>
+                                                <i class="ri-arrow-left-s-line sidebar-menu-item-icon"></i>
+                                            </div>
+                                            <!-- SUBMENU -->
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide flex-align-center active">
+                                                        <i class="ri-arrow-right-s-line"></i>
+                                                        <span>وبلاگ</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>لیست نسخه 1</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>لیست نسخه 2</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>لیست نسخه 3</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>جزئیات وبلاگ</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <!-- SIDEBAR-MENU-ITEM -->
+                                        <li class="slidebar-menu-item">
+                                            <!-- SIDEBAR-MENU-CONTENT -->
+                                            <div class="sidebar-menu-item-content flex-center-between">
+                                                <span class="sidebar-menu-item-text">سایر</span>
+                                                <i class="ri-arrow-left-s-line sidebar-menu-item-icon"></i>
+                                            </div>
+                                            <!-- SUB-MENU -->
+                                            <ul class="sub-menu">
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide flex-align-center active">
+                                                        <i class="ri-arrow-right-s-line"></i>
+                                                        <span>سایر</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>درباره ما</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>تماس با ما</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>فروشگاه</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>پلان قیمت گذاری</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>صفحه 404</span>
+                                                    </div>
+                                                </li>
+                                                <li class="sub-menu-item">
+                                                    <div class="sub-menu-content hide">
+                                                        <span>قوانین سایت</span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <!-- SIDEBAR-MENU-ITEM -->
+                                        <li class="slidebar-menu-item">
+                                            <!-- SIDEBAR-MENU-CONTENT -->
+                                            <div class="sidebar-menu-item-content">
+                                                <span class="sidebar-menu-item-text">تماس با ما</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- SIDEBAR-FOOTER -->
+                                <div class="sidebar-footer">
+                                    <p class="phone-number">
+                                        تماس با ما
+                                        <span>02188888888</span>
+                                    </p>
+
+                                    <!-- SOCIALS MEDIA -->
+                                    <div class="socials-media flex-align-center">
+                                        <i class="ri-instagram-line grid-center"></i>
+                                        <i class="ri-youtube-line grid-center"></i>
+                                        <i class="ri-facebook-line grid-center"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HEADER-MENU -->
+                <ul class="header-menu">
+                    <li class="header-menu-item">صفحه اصلی</li>
+                    <li class="header-menu-item">صفحات</li>
+                    <li class="header-menu-item">رویدادها</li>
+                    <li class="header-menu-item">وبلاگ</li>
+                    <li class="header-menu-item">سایر</li>
+                    <li class="header-menu-item">تماس با ما</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- HERO-RIGHT -->
+                <div class="hero-right wow animate__animated animate__fadeInUp">
+                    <!-- HERO-TITLE -->
+                    <h1 class="hero-title">مهارت های جدید را با معلمان برتر <span>آنلاین</span> بیاموزید!</h1>
+                    <!-- HERO-TEXT -->
+                    <p class="hero-text">از صنعت چاپ و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و
+                        مجله در ستون و سطرآنچنان که لازم است.</p>
+
+                    <!-- HERO-BUTTONS -->
+                    <div class="hero-buttons">
+                        <button type="button">ثبت نام رایگان</button>
+                        <button type="button">جستجوی دوره</button>
+                    </div>
+
+                </div>
+                <!-- HERO-LEFT -->
+                <div class="hero-left wow animate__animated animate__fadeInUp">
+                    <div class="hero-image-box">
+                        <img src="./images/2.png" alt="">
+                    </div>
+                    <div class="hero-image-box">
+                        <img src="./images/1.png" alt="">
+                    </div>
+                    <div class="hero-image-box">
+                        <img src="./images/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="waves">
+            <div class="wave wave-1"></div>
+            <div class="wave wave-2"></div>
+            <div class="wave wave-3"></div>
+            <div class="wave wave-4"></div>
+        </div>
+    </section>
+
+
+    <!-- BEST IN WORLD -->
+    <section class="best-world">
+        <div class="container">
+
+            <p class="best-text">مورد اعتماد بهترین های جهان</p>
+
+            <!-- BEST GRID IMAGES -->
+            <div class="best-grid">
+                <img class="wow animate__animated animate__fadeInUp" src="./images/1.svg" alt="" data-wow-delay="0.5s">
+                <img class="wow animate__animated animate__fadeInUp" src="./images/2.svg" alt="" data-wow-delay="0.5s">
+                <img class="wow animate__animated animate__fadeInUp" src="./images/3.svg" alt="" data-wow-delay="0.5s">
+                <img class="wow animate__animated animate__fadeInUp" src="./images/4.svg" alt="" data-wow-delay="0.5s">
+                <img class="wow animate__animated animate__fadeInUp" src="./images/5.svg" alt="" data-wow-delay="0.5s">
+                <img class="wow animate__animated animate__fadeInUp" src="./images/6.svg" alt="" data-wow-delay="0.5s">
+            </div>
+            <h2 class="best-title">دسته بندی های برتر</h2>
+            <p class="best-text-1">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است.</p>
+
+            <!-- BEST SWIPER WRAPPER -->
+            <div class="best-swiper-wrapper">
+                <!-- Slider main container -->
+                <div class="swiper best-swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+                            <div class="best-card-box">
+                                <div class="best-card-image-box grid-center">
+                                    <img src="./images/1 (1).svg" alt="">
+                                </div>
+                                <p class="best-card-text">فناوری اطلاعات</p>
+                                <span class="best-card-small-text">+126 دوره</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+                            <div class="best-card-box">
+                                <div class="best-card-image-box grid-center">
+                                    <img src="./images/2 (1).svg" alt="">
+                                </div>
+                                <p class="best-card-text">فناوری اطلاعات</p>
+                                <span class="best-card-small-text">+126 دوره</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">
+                            <div class="best-card-box">
+                                <div class="best-card-image-box grid-center">
+                                    <img src="./images/4 (1).svg" alt="">
+                                </div>
+                                <p class="best-card-text">فناوری اطلاعات</p>
+                                <span class="best-card-small-text">+126 دوره</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
+                            <div class="best-card-box">
+                                <div class="best-card-image-box grid-center">
+                                    <img src="./images/1 (1).svg" alt="">
+                                </div>
+                                <p class="best-card-text">فناوری اطلاعات</p>
+                                <span class="best-card-small-text">+126 دوره</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.5s">
+                            <div class="best-card-box">
+                                <div class="best-card-image-box grid-center">
+                                    <img src="./images/5 (2).svg" alt="">
+                                </div>
+                                <p class="best-card-text">فناوری اطلاعات</p>
+                                <span class="best-card-small-text">+126 دوره</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
+                            <div class="best-card-box">
+                                <div class="best-card-image-box grid-center">
+                                    <img src="./images/6 (1).svg" alt="">
+                                </div>
+                                <p class="best-card-text">فناوری اطلاعات</p>
+                                <span class="best-card-small-text">+126 دوره</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ALL SWIPER STOFS -->
+                    <div class="best-swiper-stof">
+                        <div class="prev-best-btn-wrapper">
+                            <button class="button-prev" type="button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+                        <div class="best-pagination-wrapper">
+                            <div class="swiper-pagination best-pagination"></div>
+                        </div>
+                        <div class="next-best-btn-wrapper">
+                            <button type="button" class="button-next">
+                                <i class="ri-arrow-left-line"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- POPULAR COURSES -->
+    <section class="popular-courses">
+        <div class="container">
+
+            <!-- POPULAR COURSES TEXT AND TITLE -->
+            <h2 class="popular-courses-title">محبوب ترین دوره ها</h2>
+            <p class="popular-courses-text">بیش از 20000 دوره منحصر به فرد در لیست دوره های آنلاین</p>
+
+            <!-- POPULAR COURSES FILTER BUTTONS WRAPPER -->
+            <div class="popular-courses-filter-buttons-wrapper flex-align-center">
+                <button data-name="all" type="button" class="popular-courses-filter-button active">همه</button>
+                <button data-name="front" type="button" class="popular-courses-filter-button">فرانت اند</button>
+                <button data-name="back" type="button" class="popular-courses-filter-button">بک اند</button>
+            </div>
+
+
+            <!-- POPULAR COURSE GRID -->
+            <div class="popular-courses-grid">
+                <div data-name="front" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.1s">
+                    <div class="popular-courses-image">
+                        <img src="./images/1 (1).png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش ReactJs</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="back" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.2s">
+                    <div class="popular-courses-image">
+                        <img src="./images/2 (1).png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش NodeJs</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="back" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.3s">
+                    <div class="popular-courses-image">
+                        <img src="./images/3 (1).png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش MongoDB</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="front" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.4s">
+                    <div class="popular-courses-image">
+                        <img src="./images/4 (1).png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش VueJs</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="back" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.5s">
+                    <div class="popular-courses-image">
+                        <img src="./images/5.png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش PHP</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="back" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.6s">
+                    <div class="popular-courses-image">
+                        <img src="./images/6.png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش .Net Core</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="front" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.7s">
+                    <div class="popular-courses-image">
+                        <img src="./images/8.png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش Java Script</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+                <div data-name="front" class="popular-courses-card wow animate__animated animate__fadeInUp"
+                    data-wow-delay="0.8s">
+                    <div class="popular-courses-image">
+                        <img src="./images/7.png" alt="">
+                    </div>
+
+                    <div class="popular-courses-rate-box flex-align-center">
+                        <span class="popular-courses-rate">4.5</span>
+                        <div class="popular-courses-start">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                        <span class="popular-courses-year-pub">(1991)</span>
+                    </div>
+
+                    <h4 class="popular-courses-card-title">آموزش Html Css</h4>
+
+                    <div class="popular-courses-more-infos flex-center-between">
+                        <div class="teacher-box flex-align-center">
+                            <img src="./images/avatar-1.png" alt="">
+                            <span>علیرضا دلف لویمی</span>
+                        </div>
+                        <span class="popular-courses-price">79000 تومان</span>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- COMMENTS -->
+    <section class="comments">
+        <div class="container">
+
+            <h2 class="comments-title">دیدگاه هنرجویان</h2>
+            <p class="comments-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است.</p>
+
+
+            <!-- Slider main container -->
+            <div class="swiper commets-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+                        <div class="comment-box">
+                            <h4 class="comments-box-title">شغل عالی</h4>
+                            <p class="comment-box-text">
+                                “متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.”
+                            </p>
+                            <div class="comment-box-footer flex-align-center">
+                                <img src="./images/4.png" alt="">
+                                <div class="comment-box-footer-content">
+                                    <h5>علیرضا دلف لویمی</h5>
+                                    <p>برنامه نویس</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+                        <div class="comment-box">
+                            <h4 class="comments-box-title">شغل عالی</h4>
+                            <p class="comment-box-text">
+                                “متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.”
+                            </p>
+                            <div class="comment-box-footer flex-align-center">
+                                <img src="./images/4.png" alt="">
+                                <div class="comment-box-footer-content">
+                                    <h5>علیرضا دلف لویمی</h5>
+                                    <p>برنامه نویس</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">
+                        <div class="comment-box">
+                            <h4 class="comments-box-title">شغل عالی</h4>
+                            <p class="comment-box-text">
+                                “متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.”
+                            </p>
+                            <div class="comment-box-footer flex-align-center">
+                                <img src="./images/4.png" alt="">
+                                <div class="comment-box-footer-content">
+                                    <h5>علیرضا دلف لویمی</h5>
+                                    <p>برنامه نویس</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
+                        <div class="comment-box">
+                            <h4 class="comments-box-title">شغل عالی</h4>
+                            <p class="comment-box-text">
+                                “متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.”
+                            </p>
+                            <div class="comment-box-footer flex-align-center">
+                                <img src="./images/4.png" alt="">
+                                <div class="comment-box-footer-content">
+                                    <h5>علیرضا دلف لویمی</h5>
+                                    <p>برنامه نویس</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comment-swiper-button-wrapper flex-align-center">
+                    <!-- If we need navigation buttons -->
+                    <button class="comment-button-prev grid-center">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                    <button class="comment-button-next grid-center">
+                        <i class="ri-arrow-left-line"></i>
+                    </button>
+                </div>
+
+            </div>
+
+
+            <!-- STATISTICS -->
+            <div class="statistics-grid">
+                <div class="statistics-item wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+                    <h3 class="statistics-title">+350,000</h3>
+                    <p class="statistics-text">دانش آموز در سراسر جهان</p>
+                </div>
+                <div class="statistics-item wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+                    <h3 class="statistics-title">+496,00</h3>
+                    <p class="statistics-text">کل بازدیدهای دوره</p>
+                </div>
+                <div class="statistics-item wow animate__animated animate__fadeInRight" data-wow-delay="0.3s">
+                    <h3 class="statistics-title">+19,000</h3>
+                    <p class="statistics-text">دوره های 5 ستاره</p>
+                </div>
+                <div class="statistics-item wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
+                    <h3 class="statistics-title">+987,000+</h3>
+                    <p class="statistics-text">انجمن دانشجویی</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- ABOUT -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+                <!-- ABOUT-CONTENT -->
+                <div class="about-content-box wow animate__animated animate__fadeInRight">
+                    <h2 class="about-title">
+                        در زمان و مکانی که دوست دارید مهارت های جدید را <span>بیاموزید</span>.
+                    </h2>
+                    <p class="about-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                        طراحان گرافیک است.</p>
+
+                    <!-- ABOUT-MENU  -->
+                    <ul class="about-menu">
+                        <li class="about-menu-item flex-align-center">
+                            <div class="about-menu-item-iocn grid-center">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <span class="about-menu-item-text">نویسندگان حرفه ای</span>
+                        </li>
+                        <li class="about-menu-item flex-align-center">
+                            <div class="about-menu-item-iocn grid-center">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <span class="about-menu-item-text">پیگیری آسان برنامه ی درسی</span>
+                        </li>
+                        <li class="about-menu-item flex-align-center">
+                            <div class="about-menu-item-iocn grid-center">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <span class="about-menu-item-text">ارائه دوره های رایگان</span>
+                        </li>
+                        <li class="about-menu-item flex-align-center">
+                            <div class="about-menu-item-iocn grid-center">
+                                <i class="ri-check-line"></i>
+                            </div>
+                            <span class="about-menu-item-text">ضمانت بازگشت وجه</span>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="about-btn">ثبت نام رایگان</button>
+
+                </div>
+                <!-- ABOUT-IMAGE -->
+                <div class="about-image wow animate__animated animate__fadeInLeft">
+                    <img src="./images/1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY US -->
+    <section class="whyus">
+        <div class="container">
+            <h2 class="whyus-title">دیدگاه هنرجویان</h2>
+            <p class="whyus-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم است.</p>
+            <div class="whyus-grid">
+                <div class="whyus-item-box wow animate__animated animate__fadeInRight">
+                    <i class="ri-presentation-line whyus-icon"></i>
+                    <h3 class="whyus-item-box-title">01. یادگیری</h3>
+                    <p class="whyus-item-box-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                        استفاده از طراحان گرافیک است.</p>
+                </div>
+                <div class="whyus-item-box wow animate__animated animate__fadeInUp">
+                    <i class="ri-computer-line whyus-icon"></i>
+                    <h3 class="whyus-item-box-title">02. فارغ التحصیل</h3>
+                    <p class="whyus-item-box-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                        استفاده از طراحان گرافیک است.</p>
+                </div>
+                <div class="whyus-item-box wow animate__animated animate__fadeInLeft">
+                    <i class="ri-money-dollar-box-line whyus-icon"></i>
+                    <h3 class="whyus-item-box-title">03. درآمدزایی</h3>
+                    <p class="whyus-item-box-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                        استفاده از طراحان گرافیک است.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TEAM -->
+    <section class="team">
+        <div class="container">
+
+            <!-- TEAM HEADER -->
+            <div class="team-header">
+                <div class="team-header-content">
+                    <h3 class="team-header-title">از بهترین مربیان بیاموزید</h3>
+                    <p class="team-header-text">لورم ایپسوم متن ساختگی با تولید سادگی است.</p>
+                </div>
+
+                <button class="team-header-button flex-align-center" type="button">
+                    <span>مشاهده همه</span>
+                    <i class="ri-arrow-left-up-line"></i>
+                </button>
+
+            </div>
+
+
+            <div class="team-grid">
+                <div class="team-item wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+                    <!-- TEAM-IMAGE-BOX -->
+                    <div class="team-item-image">
+                        <img src="./images/team-1.png" alt="">
+                        <!-- TEAM-ITEM-MEDIAS -->
+                        <div class="team-item-medias flex-align-center">
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-youtube-line"></i>
+                            <i class="ri-facebook-line"></i>
+                            <i class="ri-linkedin-line"></i>
+                        </div>
+
+                    </div>
+
+                    <h4 class="team-item-title">میلاد ناصری</h4>
+                    <p class="team-item-text">مدرس دانشگاه آزاد</p>
+
+                </div>
+                <div class="team-item wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <!-- TEAM-IMAGE-BOX -->
+                    <div class="team-item-image">
+                        <img src="./images/team-2.png" alt="">
+                        <!-- TEAM-ITEM-MEDIAS -->
+                        <div class="team-item-medias flex-align-center">
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-youtube-line"></i>
+                            <i class="ri-facebook-line"></i>
+                            <i class="ri-linkedin-line"></i>
+                        </div>
+
+                    </div>
+
+                    <h4 class="team-item-title">نرگس محمدی</h4>
+                    <p class="team-item-text">بازیگر</p>
+
+                </div>
+                <div class="team-item wow animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                    <!-- TEAM-IMAGE-BOX -->
+                    <div class="team-item-image">
+                        <img src="./images/team-3.png" alt="">
+                        <!-- TEAM-ITEM-MEDIAS -->
+                        <div class="team-item-medias flex-align-center">
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-youtube-line"></i>
+                            <i class="ri-facebook-line"></i>
+                            <i class="ri-linkedin-line"></i>
+                        </div>
+
+                    </div>
+
+                    <h4 class="team-item-title">هما سعادت</h4>
+                    <p class="team-item-text">اخبار گو</p>
+
+                </div>
+                <div class="team-item wow animate__animated animate__fadeInLeft" data-wow-delay="0.4s">
+                    <!-- TEAM-IMAGE-BOX -->
+                    <div class="team-item-image">
+                        <img src="./images/team-4.png" alt="">
+                        <!-- TEAM-ITEM-MEDIAS -->
+                        <div class="team-item-medias flex-align-center">
+                            <i class="ri-instagram-line"></i>
+                            <i class="ri-youtube-line"></i>
+                            <i class="ri-facebook-line"></i>
+                            <i class="ri-linkedin-line"></i>
+                        </div>
+
+                    </div>
+
+                    <h4 class="team-item-title">محمد صلاح</h4>
+                    <p class="team-item-text">فوتبالیست</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JOIN US -->
+    <section class="join-us">
+        <div class="container">
+            <div class="join-us-content">
+                <h3 class="join-us-title">به بیش از 10 میلیون <span>یادگیرنده</span> در <br> سراسر جهان بپیوندید.</h3>
+                <button class="join-us-btn" type="button">آموزش رایگان را شروع کنید</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-menu-wrapper">
+                    <h3 class="footer-menu-wrapper-title">درباره ما</h3>
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">درباره ما</li>
+                        <li class="footer-menu-item">بازگشت وجه</li>
+                        <li class="footer-menu-item">لیست وبلاگ</li>
+                        <li class="footer-menu-item">مدرس شوید</li>
+                        <li class="footer-menu-item">لیست وبلاگ</li>
+                    </ul>
+                </div>
+                <div class="footer-menu-wrapper">
+                    <h3 class="footer-menu-wrapper-title">دسته بندی ها</h3>
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item">برنامه نویسی</li>
+                        <li class="footer-menu-item">طراحی وب</li>
+                        <li class="footer-menu-item">مالی و حسابداری</li>
+                        <li class="footer-menu-item">فناوری اطلاعات</li>
+                        <li class="footer-menu-item">هوش مصنوعی</li>
+                        <li class="footer-menu-item">روباتیک</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="created-box">
+            ساخته شده با ❤ توسط علیرضا دلف لویمی
+        </div>
+    </footer>
+
+
+    <!-- swiper js file -->
+    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+    <!-- wow js file -->
+    <script src="./node_modules/wow.js/dist/wow.min.js"></script>
+    <!-- app.js -->
+    <script src="./js/app.js"></script>
+    <!-- active.js -->
+    <script src="./js/active.js"></script>
+</body>
+
+</html>
